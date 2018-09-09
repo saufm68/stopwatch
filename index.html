@@ -1,9 +1,43 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <title></title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <meta charset="UTF-8">
+    <title>Timer</title>
 </head>
 <body>
-    <script type="text/javascript" src = "script.js"></script>
+    <header>
+        <h1>CountDown Timer</h1>
+    </header>
+    <nav>
+        <ul>
+            <li>Timer</li>
+            <li>Stopwatch</li>
+        </ul>
+    </nav>
+    <main>
+        <div class="board">
+            <div class="hours">
+                <input type="number" max="59">
+            </div>
+            <div class="divider">:</div>
+            <div class="minutes">
+                <input type="number" max="59">
+            </div>
+            <div class="divider">:</div>
+            <div class="seconds">
+                <input type="number" max="59">
+            </div>
+            <div class="button-board">
+                <button id="start">Start</button>
+                <button id="stop">Stop</button>
+                <button id="reset">Reset</button>
+            </div>
+        </div>
+    </main>
+    <footer>
+
+    </footer>
+     <!--<script type="text/javascript" src = "timer.js"></script>-->
 </body>
 </html>
